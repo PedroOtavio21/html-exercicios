@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro Completo</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro Completo</h1>
+    <form>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="n"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="e"><br><br>
+        <label for="password">Senha: </label>
+        <input type="password" id="password" name="p"><br><br>
+        <label for="confirm-password">Confirmar senha: </label>
+        <input type="password" id="confirm-password" name="cp"><br><br>
+
+        <label>Gênero: </label>
+        <select name="genres" id="genres">
+            <option value="" disabled>Selecione o Gênero</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+
+        <label for="biograph">Biografia: </label>
+        <textarea name="biograph" id="biograph"></textarea><br><br>
+
+        <label for="terms">Aceitar termos de serviço</label>
+        <input type="checkbox" name="checked" id="terms"><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
